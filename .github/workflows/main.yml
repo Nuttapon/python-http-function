@@ -42,7 +42,7 @@ jobs:
         uses: "google-github-actions/deploy-cloud-functions@v1"
         with:
           # Name of the Cloud Function, same as the entry point name
-          name: "python-http-function"
+          name: "hello_http"
           # Runtime to use for the function
           runtime: "nodejs20"
 
