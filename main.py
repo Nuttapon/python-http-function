@@ -22,4 +22,4 @@ def hello_http(request):
         name = request_args["name"]
     else:
         name = "World"
-    return f"Hello {escape(name)}!"
+    return f"Hello {escape(name)}! from Cloud Functions"
