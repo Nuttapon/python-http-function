@@ -44,7 +44,7 @@ jobs:
           # Name of the Cloud Function, same as the entry point name
           name: "hello_http"
           # Runtime to use for the function
-          runtime: "nodejs20"
+          runtime: "python311"
 
       # Example of using the output
       - id: "test"
