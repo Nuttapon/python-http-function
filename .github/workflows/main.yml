@@ -45,6 +45,7 @@ jobs:
           name: "hello_http"
           # Runtime to use for the function
           runtime: "python311"
+          region: "asia-southeast1"
 
       # Example of using the output
       - id: "test"
