@@ -1,4 +1,4 @@
-name: Staging Deployment
+name: Prod Deployment
 
 # Controls when the workflow will run
 on:
