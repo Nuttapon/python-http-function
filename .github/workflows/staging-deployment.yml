@@ -33,9 +33,6 @@ jobs:
       - name: "Set up Cloud SDK"
         uses: "google-github-actions/setup-gcloud@v1"
 
-      - name: "Set default region"
-        run: gcloud config set compute/region asia-southeast1
-
       - id: "deploy"
         name: Deploy app to Google Cloud Function
         run: |
