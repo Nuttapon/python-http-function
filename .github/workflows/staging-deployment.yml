@@ -40,6 +40,7 @@ jobs:
           --gen2 \
           --runtime=python311 \
           --region=asia-southeast1 \
+          --set-env-vars REGION='${{ secrets.REGION }}' \
           --source=./ \
           --entry-point=hello_http \
           --trigger-http \
